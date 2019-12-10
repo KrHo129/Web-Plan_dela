@@ -2,9 +2,9 @@
 
 https://plan-dela.herokuapp.com/
 
-<img src="https://raw.githubusercontent.com/KrHo129/Web-Plan_dela/master/Screenshots-higherRes/screenShot%20demo.png" alt="example_image"/>
-<img src="https://raw.githubusercontent.com/KrHo129/Web-Plan_dela/master/Screenshots-higherRes/oddelki.JPG" alt="example_image"/>
 <img src="https://raw.githubusercontent.com/KrHo129/Web-Plan_dela/master/Screenshots-higherRes/ustvarjanje%20plana.png" alt="example_image"/>
+<img src="https://raw.githubusercontent.com/KrHo129/Web-Plan_dela/master/Screenshots-higherRes/zaposleni.JPG.png" alt="example_image"/>
+<img src="https://raw.githubusercontent.com/KrHo129/Web-Plan_dela/master/Screenshots-higherRes/oddelki.JPG" alt="example_image"/>
 
 
 ______________________
