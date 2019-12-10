@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+/* Header */
+header {
+    background-color: rgb(214, 34, 34);
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+}
+/* Body */
+body {
+    min-height: 98vh;
+    margin: 5px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+/* Article */
+article {
+    margin-top: 5px;
+}
+/* Footer */
+footer {
+    clear: both;
+    font-size: 11px;
+    text-align: center;
+    color: white;
+    background-color: rgb(212, 52, 52);
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    margin-bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    position: static;    
+    bottom: 0;
+    left: 0;
+}
+.fillEmptyPage {
+    flex-grow: 1;
+}
+/* Navigation */
+nav {
+    background-color: rgb(236, 189, 189);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 1px;
+    overflow: auto;
+    
+}
+.navList {
+    display: inline;
+    list-style-type: none;
+}
+nav ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.navList a,
+.navList a:link, 
+.navList a:visited {
+    color: rgb(126, 8, 28);
+    text-decoration: none;
+}
+.navList a:hover {
+    color: white;
+}
+nav li a {
+    margin: 7px 10px 0 5px;
+    padding: 3px 15px 5px 15px;
+}
+.loginStyle {
+    float: right;
+    margin-right: 10px;
+    display: none;
+}
+.loginStyle input, 
+.loginStyle button,
+.loginNeeded input,
+.loginNeeded button {
+    margin-left: 5px;
+}
+.loginNeeded {
+    text-align: center;
+}
+.loginErrorMsg {
+    color: rgb(75, 9, 9);
+    font-size: 14px;
+    margin-top: 4px;
+    background-color: rgb(245, 200, 200);
+}
+.logoutStyle {
+    float: right;
+    margin-right: 10px;
+    display: none;
+}
+.logoutStyle li {
+    margin-right: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.currentLink {
+    background-color: rgb(219, 159, 159);
+    border-radius: 30px;
+    color: rgb(100, 13, 28) !important;
+}
+.currentLink:hover {
+    color:white !important;
+}

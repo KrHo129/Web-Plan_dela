@@ -1,0 +1,111 @@
+/* Dodaj oddelek div */
+.dodajOddelek {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+    font-size: 20px;
+}
+.dodajOddelek table {
+    margin: auto;
+}
+.dodajOddelek td, th{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dodajOddelek input, .dodajOddelek select {
+    font-size: 18px;
+}
+input[type="text"] {
+    padding-left: 5px;
+}
+select {
+    text-align: center;
+    text-align-last: center;
+}
+input[type="number"] {
+    width: 50px;
+    text-align: center;
+}
+input[type="number"]:hover::-webkit-inner-spin-button,
+input[type="number"]:hover::-webkit-outer-spin-button {
+    opacity: 1;
+    cursor: pointer;
+}
+.dodajOddelek .textTime {
+    width: 50px;
+}
+input[type="time"]::-webkit-clear-button,
+input[type="time"]::-webkit-inner-spin-button,
+input[type="time"]::-webkit-outer-spin-button {
+    display: none;
+}
+.dodajOddelek button {
+    height: 30px;
+    width: 175px;
+    font-size: 20px;
+}
+.Error {
+    background-color: rgb(245, 200, 200);
+    color: darkred;
+}
+
+/* seznam oddelkov div */
+.seznamOddelkov .tablesDiv {
+    background-color: rgb(240, 240, 240);
+}
+.seznamOddelkov table {
+    align-content: center;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.seznamOddelkov table td, th{
+    border-bottom: 1px solid black;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    font-size: 18px;
+}
+.seznamOddelkov {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.seznamOddelkov table button {
+    font-size: 18px;
+    margin-left: 5px;
+}
+.btnRemoveOdd {
+    color: darkred;
+}
+.tablesDiv tr:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+/* urejanje ustvarjenih oddelkov */
+.seznamOddelkov input,
+.seznamOddelkov select,
+.seznamOddelkov option {
+    font-size: 14px;
+}
+.tablesDiv .textTime {
+    width: 40px;
+}
+.editError {
+    font-size: 16px;
+    color: darkred;
+    background-color: rgb(245, 200, 200);
+}
+
+/* other */
+h2 {
+    text-align: center;
+}
+button {
+    cursor: pointer;
+}
