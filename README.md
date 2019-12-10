@@ -1,11 +1,9 @@
 # Spletna stran za pomoč pri ustvarjanju dvosmenskega tedenskega plana
 
-Spletna stran še vedno v razvoju
-
-______________________
 https://plan-dela.herokuapp.com/
 
-Za namene testiranja se lahko uporabi uporabnika "test" z geslom "111111"
+<img src="https://raw.githubusercontent.com/KrHo129/Web-Plan_dela/master/screenShot%20demo.png" alt="example_image"/>
+
 ______________________
 Za backend uporabljen Express framework.
 Poleg tega uporabljeni še:
