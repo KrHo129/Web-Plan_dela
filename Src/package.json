@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/simonoblak/mercator_plan#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-form-data": "^2.0.8",
     "mariadb": "^2.0.3",
     "validate": "^4.5.1"
